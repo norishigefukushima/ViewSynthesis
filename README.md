@@ -2,5 +2,4 @@ ViewSynthesis
 =============
 
 View Synthesis Function
-
-http://nma.web.nitech.ac.jp/fukushima/research/viewsynthesis.html
+http://fukushima.web.nitech.ac.jp/research/viewsynthesis/
