@@ -1,0 +1,135 @@
+﻿  filter.cpp
+C:\opencv\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\opencv\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\opencv\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  main.cpp
+C:\opencv\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\opencv\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\opencv\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  util.cpp
+C:\opencv\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\opencv\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\opencv\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  ViewSynthesis.cpp
+C:\opencv\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\opencv\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\opencv\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+ViewSynthesis.cpp(4961): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+ViewSynthesis.cpp(4551): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+          ViewSynthesis.cpp(4428) : コンパイルされたクラスの テンプレート のインスタンス化 'void StereoViewSynthesis::makeMask_<uchar>(cv::Mat &,cv::Mat &,cv::Mat &,cv::Mat &,double,int,double)' の参照を確認してください
+ViewSynthesis.cpp(4559): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+ViewSynthesis.cpp(4470): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+          ViewSynthesis.cpp(4515) : コンパイルされたクラスの テンプレート のインスタンス化 'void StereoViewSynthesis::analyzeSynthesizedViewDetail_<uchar>(cv::Mat &,cv::Mat &,cv::Mat &,cv::Mat &,double,int,double,cv::Mat &,cv::Mat &)' の参照を確認してください
+ViewSynthesis.cpp(4480): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+ViewSynthesis.cpp(4658): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+          ViewSynthesis.cpp(5063) : コンパイルされたクラスの テンプレート のインスタンス化 'void StereoViewSynthesis::viewsynth<uchar>(const cv::Mat &,const cv::Mat &,const cv::Mat &,const cv::Mat &,cv::Mat &,cv::Mat &,double,int,double,int)' の参照を確認してください
+ViewSynthesis.cpp(4665): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+  コード生成しています。
+  コード生成が終了しました。
+  ViewSynthesis.vcxproj -> C:\Users\Fukushima\Documents\GitHub\ViewSynthesis\x64\Release\ViewSynthesis.exe
+
+プロジェクト パフォーマンスの概要:
+     4874 ミリ秒  C:\Users\Fukushima\Documents\GitHub\ViewSynthesis\ViewSynthesis\ViewSynthesis.vcxproj   1 回呼び出し
+               4874 ミリ秒  Build                                      1 回呼び出し
+
+ターゲット パフォーマンスの概要:
+        0 ミリ秒  AfterBuildCompileEvent                     1 回呼び出し
+        0 ミリ秒  ComputeManifestGeneratedLinkerInputs       1 回呼び出し
+        0 ミリ秒  ResolveReferences                          1 回呼び出し
+        0 ミリ秒  SelectClCompile                            1 回呼び出し
+        0 ミリ秒  _CheckForCompileOutputs                    1 回呼び出し
+        0 ミリ秒  GetResolvedWinMD                           1 回呼び出し
+        0 ミリ秒  _Manifest                                  1 回呼び出し
+        0 ミリ秒  _SelectedFiles                             1 回呼び出し
+        0 ミリ秒  PostBuildEvent                             1 回呼び出し
+        0 ミリ秒  _Midl                                      1 回呼び出し
+        0 ミリ秒  SelectCustomBuild                          1 回呼び出し
+        0 ミリ秒  _ClCompile                                 1 回呼び出し
+        0 ミリ秒  GetReferenceAssemblyPaths                  1 回呼び出し
+        0 ミリ秒  CreateCustomManifestResourceNames          1 回呼び出し
+        0 ミリ秒  ResolveAssemblyReferences                  1 回呼び出し
+        0 ミリ秒  BeforeLink                                 1 回呼び出し
+        0 ミリ秒  AfterBuild                                 1 回呼び出し
+        0 ミリ秒  ComputeCLInputPDBName                      1 回呼び出し
+        0 ミリ秒  GetCopyToOutputDirectoryItems              1 回呼び出し
+        0 ミリ秒  _BuildLinkAction                           1 回呼び出し
+        0 ミリ秒  AfterBuildGenerateSources                  1 回呼び出し
+        0 ミリ秒  BeforeResourceCompile                      1 回呼び出し
+        0 ミリ秒  MakeDirsForCl                              1 回呼び出し
+        0 ミリ秒  ExpandSDKReferences                        1 回呼び出し
+        0 ミリ秒  BuildGenerateSources                       1 回呼び出し
+        0 ミリ秒  _CopySourceItemsToOutputDirectory          1 回呼び出し
+        0 ミリ秒  ComputeLinkImportLibraryOutputsForClean    1 回呼び出し
+        0 ミリ秒  GetFrameworkPaths                          1 回呼び出し
+        0 ミリ秒  AfterResourceCompile                       1 回呼び出し
+        0 ミリ秒  _Xsd                                       1 回呼び出し
+        0 ミリ秒  MakeDirsForBscMake                         1 回呼び出し
+        0 ミリ秒  ComputeLinkSwitches                        1 回呼び出し
+        0 ミリ秒  _GenerateSatelliteAssemblyInputs           1 回呼び出し
+        0 ミリ秒  MakeDirsForResourceCompile                 1 回呼び出し
+        0 ミリ秒  _ResourceCompile                           1 回呼び出し
+        0 ミリ秒  ComputeLinkInputsFromProject               1 回呼び出し
+        0 ミリ秒  Build                                      1 回呼び出し
+        0 ミリ秒  _Link                                      1 回呼び出し
+        0 ミリ秒  BuildLinkTraverse                          1 回呼び出し
+        0 ミリ秒  ComputeRCOutputs                           1 回呼び出し
+        0 ミリ秒  _XdcMake                                   1 回呼び出し
+        0 ミリ秒  CreateSatelliteAssemblies                  1 回呼び出し
+        0 ミリ秒  CopyFilesToOutputDirectory                 1 回呼び出し
+        0 ミリ秒  BuildCompileTraverse                       1 回呼び出し
+        0 ミリ秒  AfterMidl                                  1 回呼び出し
+        0 ミリ秒  ComputeMIDLGeneratedCompileInputs          1 回呼び出し
+        0 ミリ秒  _Deploy                                    1 回呼び出し
+        0 ミリ秒  _ALink                                     1 回呼び出し
+        0 ミリ秒  AfterBuildGenerateSourcesEvent             1 回呼び出し
+        0 ミリ秒  BeforeClCompile                            1 回呼び出し
+        0 ミリ秒  ComputeCLOutputs                           1 回呼び出し
+        0 ミリ秒  AfterResolveReferences                     1 回呼び出し
+        0 ミリ秒  BeforeResolveReferences                    1 回呼び出し
+        0 ミリ秒  PrepareResourceNames                       1 回呼び出し
+        0 ミリ秒  PreLinkEvent                               1 回呼び出し
+        0 ミリ秒  ResolveSDKReferences                       1 回呼び出し
+        0 ミリ秒  PrepareForRun                              1 回呼び出し
+        0 ミリ秒  PreBuildEvent                              1 回呼び出し
+        0 ミリ秒  ComputeCLCompileGeneratedSbrFiles          1 回呼び出し
+        0 ミリ秒  _BscMake                                   1 回呼び出し
+        0 ミリ秒  BuildLink                                  1 回呼び出し
+        0 ミリ秒  ComputeReferenceCLInput                    1 回呼び出し
+        0 ミリ秒  AfterLink                                  1 回呼び出し
+        0 ミリ秒  ComputeCLGeneratedLinkInputs               1 回呼び出し
+        0 ミリ秒  ComputeRCGeneratedLinkInputs               1 回呼び出し
+        0 ミリ秒  _PrepareForReferenceResolution             1 回呼び出し
+        0 ミリ秒  MakeDirsForLink                            1 回呼び出し
+        0 ミリ秒  ComputeLegacyManifestEmbedding             1 回呼び出し
+        0 ミリ秒  BeforeBuildGenerateSources                 1 回呼び出し
+        0 ミリ秒  AfterClCompile                             1 回呼び出し
+        0 ミリ秒  ResolvedXDCMake                            1 回呼び出し
+        0 ミリ秒  AssignTargetPaths                          1 回呼び出し
+        0 ミリ秒  BuildGenerateSourcesTraverse               1 回呼び出し
+        0 ミリ秒  PlatformPrepareForBuild                    1 回呼び出し
+        0 ミリ秒  MakeDirsForXdcMake                         1 回呼び出し
+        0 ミリ秒  GetInstalledSDKLocations                   1 回呼び出し
+        0 ミリ秒  _BuildCompileAction                        1 回呼び出し
+        0 ミリ秒  _SplitProjectReferencesByFileExistence     1 回呼び出し
+        0 ミリ秒  BuildCompile                               1 回呼び出し
+        0 ミリ秒  _BuildGenerateSourcesAction                1 回呼び出し
+        0 ミリ秒  _Appverifier                               1 回呼び出し
+        1 ミリ秒  ComputeCustomBuildOutput                   1 回呼び出し
+        1 ミリ秒  DoLinkOutputFilesMatch                     1 回呼び出し
+        1 ミリ秒  AssignProjectConfiguration                 1 回呼び出し
+        1 ミリ秒  ComputeCLCompileGeneratedXDCFiles          1 回呼び出し
+        1 ミリ秒  ResolveProjectReferences                   1 回呼び出し
+        1 ミリ秒  SplitResourcesByCulture                    1 回呼び出し
+        1 ミリ秒  GetCopyToOutputDirectoryXamlAppDefs        1 回呼び出し
+        1 ミリ秒  _PrepareForBuild                           1 回呼び出し
+        1 ミリ秒  MakeDirsForMidl                            1 回呼び出し
+        1 ミリ秒  ComputeManifestInputsTargets               1 回呼び出し
+        2 ミリ秒  WarnCompileDuplicatedFilename              1 回呼び出し
+        2 ミリ秒  FinalizeBuildStatus                        1 回呼び出し
+        4 ミリ秒  SetBuildDefaultEnvironmentVariables        1 回呼び出し
+        4 ミリ秒  PrepareForBuild                            1 回呼び出し
+        6 ミリ秒  InitializeBuildStatus                      1 回呼び出し
+        9 ミリ秒  _CheckForInvalidConfigurationAndPlatform   1 回呼び出し
+      112 ミリ秒  SetCABuildNativeEnvironmentVariables       1 回呼び出し
+     1727 ミリ秒  Link                                       1 回呼び出し
+     2992 ミリ秒  ClCompile                                  1 回呼び出し
