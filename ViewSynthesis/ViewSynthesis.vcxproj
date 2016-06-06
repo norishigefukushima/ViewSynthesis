@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="filter.cpp" />
+    <ClCompile Include="guidedFilter.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="util.cpp" />
     <ClCompile Include="ViewSynthesis.cpp" />

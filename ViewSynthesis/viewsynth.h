@@ -27,6 +27,7 @@ void maxFilter(const Mat& src, Mat& dest, Size kernelSize);
 void maxFilter(const Mat& src, Mat& dest, int radius);
 void minFilter(const Mat& src, Mat& dest, Size kernelSize);
 void minFilter(const Mat& src, Mat& dest, int radius);
+void guidedFilter(const Mat& src, const Mat& joint, Mat& dest, const int radius, const float eps);
 
 void warpShift(InputArray src, OutputArray dest, int shiftx, int shifty=0, int borderType=-1);
 void warpShiftSubpix(InputArray  src, OutputArray dest, double shiftx, double shifty=0, const int inter_method = cv::INTER_LANCZOS4);
