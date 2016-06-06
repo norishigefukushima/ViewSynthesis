@@ -11,6 +11,53 @@ void fillOcclusionHV(Mat& src, int invalid=0)
 	min(src,dst,src);
 }
 
+template<class T>
+void boundaryDetection_(Mat& src, Mat& dest, const int r, const T threshold)
+{
+	Mat srcmax, srcmin;
+	Size kernel = Size(2 * r + 1, 2 * r + 1);
+	maxFilter(src, srcmax, kernel);
+	minFilter(src, srcmin, kernel);
+
+	uchar* d = dest.ptr<uchar>(0);
+	T* s = src.ptr<T>(0);
+	T* smin = srcmin.ptr<T>(0);
+	T* smax = srcmax.ptr<T>(0);
+		for (int i = 0; i < src.size().area(); i++)
+		{
+			T diff = smax[i] - smin[i];
+			T diffmax = smax[i] - s[i];
+			T diffmin = s[i] - smin[i];
+
+			if (diff <= threshold)
+			{
+				d[i] = 128;
+			}
+			else
+			{
+				if (diffmax <= diffmin)
+				{
+					d[i] = 255;
+				}
+				else
+				{
+					d[i] = 0;
+				}
+			}
+		}
+}
+
+void boundaryDetection(Mat& src, Mat& dest, const int r, const double threshold)
+{
+	if (dest.empty() || dest.size() != src.size())dest.create(src.size(), CV_8U);
+
+	if (src.depth() == CV_8U) boundaryDetection_<uchar>(src, dest, r, (uchar)threshold);
+	else if (src.depth() == CV_16S) boundaryDetection_<short>(src, dest, r, (short)threshold);
+	else if (src.depth() == CV_16U) boundaryDetection_<ushort>(src, dest, r, (ushort)threshold);
+	else if (src.depth() == CV_32S) boundaryDetection_<int>(src, dest, r, (int)threshold);
+	else if (src.depth() == CV_32F) boundaryDetection_<float>(src, dest, r, (float)threshold);
+	else if (src.depth() == CV_64F) boundaryDetection_<double>(src, dest, r, threshold);
+}
 
 void guiViewSynthesis()
 {
@@ -71,6 +118,11 @@ void guiViewSynthesis()
 
 	int key = 0;
 	int dispAmp = 2;
+
+	string wname2 = "boundary";
+	namedWindow(wname2);
+	int boundaryR = 3; createTrackbar("br", wname2, &boundaryR, 30);
+	int boundaryThreshold = 10; createTrackbar("bthresh", wname2, &boundaryThreshold , 30);
 	while(key!='q')
 	{
 		Mat dest,destdisp, max_disp_l, max_disp_r;
@@ -90,7 +142,12 @@ void guiViewSynthesis()
 		fillOcclusion(matdiR);
 		if((matdiL.size().area()-countNonZero(matdiR)!=0))fillOcclusionHV(matdiR);
 		
+
 		
+		Mat boundary;
+		boundaryDetection(matdiL, boundary, boundaryR, boundaryThreshold);
+		imshow(wname2, boundary);
+
 		alphaBlend(matimL,matdiL,alpha/100.0,show);
 		imshow("disp",show);
 
